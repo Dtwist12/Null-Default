@@ -35,3 +35,5 @@ insert into sports (name,team,year,AllStars)
  Values ('Hockey', 'Vegas Golden Knights' 2017,'Divison Championships');
 
 select * from sports;
+select * from sports
+where team='Saints';
