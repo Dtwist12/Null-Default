@@ -23,6 +23,8 @@ insert into TVshows (name,type,year,department)
 Values('The Simposons','American sitcom',1989,'Disney');
 
 select * from TVshows;
+select * from TVshows
+where name='The Golden Girls';
 
 insert into sports(name, team , year)
 Values ('Soccer','FC Barcelona',1899),
